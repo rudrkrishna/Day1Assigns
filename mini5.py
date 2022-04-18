@@ -3,7 +3,7 @@ from functools import reduce
 #negative to positive
 
 lst1=[-1000, 500, -600, 700, 5000, -90000, -17500]
-result = filter(lambda y : y>0, list(map(lambda x: x*-1, lst1)))
+result = filter(lambda y : y>0, map(lambda x: x*-1, lst1))
 
 print(list(result))
 
