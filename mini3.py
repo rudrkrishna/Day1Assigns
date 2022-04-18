@@ -11,7 +11,9 @@ for i in range(0, len(li)):
         for l in range(k, len(li[i])):
             if li[i][j] == li[i][l] and li[i][j] not in duplDict:
                 duplDict[li[i][j]]=li[i].count(li[i][j])
-    print(duplDict)
+    for key, value in duplDict.items():
+        print(key, end=" -> ")
+        print(value)
 
 #Merge two lists
 
@@ -58,8 +60,7 @@ print(sampleDict)
 
 dict = {"HuEx": [1, 3, 4], "is": [7, 6], "best": [4, 5]}
 
-dictlist=[]
-
+dictlist = []
 
 for key, value in dict.items():
     temp = []
