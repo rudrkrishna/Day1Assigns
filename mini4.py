@@ -10,7 +10,7 @@ liCount=[]
 
 letterCount = lambda stri, c: str(stri.count(c))
 def counterFun(li):
-    return "A -> "+letterCount(li, 'A')+" | "+"a -> "+letterCount(li, 'a')
+    return "A -> "+letterCount(li, 'A')+"  "+"a -> "+letterCount(li, 'a')
 
 countLi=list(map(counterFun, lst1))
 
