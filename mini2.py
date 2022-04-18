@@ -7,7 +7,6 @@ for i in range(n):
         print(factorial(i) // (factorial(j) * factorial(i - j)), end=" ")
     for k in range(j, n-1):
         print("0", end=" ")
-
     print()
 
 
