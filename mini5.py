@@ -9,9 +9,7 @@ print(list(result))
 
 #reduce function multiplication
 list1 = [1, 2, 3, 4, 5, 6]
-
 mul = reduce(lambda a, b : b*a, list1)
-
 print(mul)
 
 #dictionary using zip and dict functions
