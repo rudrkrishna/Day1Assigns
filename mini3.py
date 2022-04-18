@@ -57,7 +57,9 @@ print(sampleDict)
 #convert dictionary to list
 
 dict = {"HuEx": [1, 3, 4], "is": [7, 6], "best": [4, 5]}
+
 dictlist=[]
+
 
 for key, value in dict.items():
     temp = []
